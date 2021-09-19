@@ -250,19 +250,27 @@
             </CarouselView.ItemTemplate>
         </CarouselView>
 
+
+        <StackLayout 
+             AbsoluteLayout.LayoutFlags="All"
+             AbsoluteLayout.LayoutBounds="1.05,1.16,0.3,0.775">
+
+         
            <Button
         Grid.Row="0"
-        Margin="0,0,20,22"
-        BackgroundColor="Blue"
-        BorderRadius="35"
+        Margin="0,0,20,2"
+        BackgroundColor="SeaGreen"
+        BorderRadius="30"
         BorderWidth="1"
         FontAttributes="Bold"
-        HeightRequest="70"
+        HeightRequest="50"
         HorizontalOptions="Center"
         Text="Add Recipe"
         TextColor="White"
         VerticalOptions="End"
         WidthRequest="160" />
+         </StackLayout>
+
 
         <IndicatorView
             x:Name="indicatorview"
@@ -271,7 +279,12 @@
             IndicatorColor="LightGray"
             IndicatorSize="10"
             SelectedIndicatorColor="Black" />
+
     </AbsoluteLayout>
+
+        
+
+    
 
 
 </ContentPage>
