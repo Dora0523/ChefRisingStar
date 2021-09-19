@@ -251,14 +251,11 @@
         </CarouselView>
 
 
-        <StackLayout 
-             AbsoluteLayout.LayoutFlags="All"
-             AbsoluteLayout.LayoutBounds="1.05,1.16,0.3,0.775">
 
-         
-           <Button
+
+            <Button
         Grid.Row="0"
-        Margin="0,0,20,2"
+        Margin="274,134,0,0"
         BackgroundColor="SeaGreen"
         BorderRadius="30"
         BorderWidth="1"
@@ -268,11 +265,10 @@
         Text="Add Recipe"
         TextColor="White"
         VerticalOptions="End"
-        WidthRequest="160" />
-         </StackLayout>
+        WidthRequest="110" />
 
 
-        <IndicatorView
+            <IndicatorView
             x:Name="indicatorview"
             AbsoluteLayout.LayoutBounds="0.5,0.95,100,100"
             AbsoluteLayout.LayoutFlags="PositionProportional"
