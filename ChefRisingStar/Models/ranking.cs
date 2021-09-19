@@ -1,5 +1,8 @@
 ﻿using Newtonsoft.Json;
 using System.Diagnostics;
+using System.Windows.Input;
+using Xamarin.Essentials;
+using Xamarin.Forms;
 
 
 namespace ChefRisingStar.Models
@@ -18,5 +21,11 @@ namespace ChefRisingStar.Models
 
         [JsonProperty("Link")]
         public string Link { get; set; }
+
+        public ICommand OpenWebCommand { get; }
+        public Rank()
+        {
+            OpenWebCommand = new Command(async () => await Browser.OpenAsync(Link));
+        }
     }
 }
