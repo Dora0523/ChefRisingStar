@@ -142,7 +142,7 @@
                                                     VerticalOptions="CenterAndExpand" />
                                                             <Label Text="{Binding Rating}" Grid.Column="2" FontSize="18" FontFamily="Open Sans" TextColor="Black" HorizontalOptions="Center"
                                                         VerticalOptions="Center"/>
-                                                            <Button Text="Get Recipe" Grid.Column="3" FontSize="10" BackgroundColor="LightSkyBlue" Command="{Binding OpenWebCommand}"/>
+                                                            <Button Text="Get Recipe" Grid.Column="3" FontSize="10" BackgroundColor="#b0c060" Command="{Binding OpenWebCommand}"/>
                                                             <!--Label Text="{Binding Link}" Grid.Column="3"  FontSize="15" FontFamily="Open Sans" TextColor="Black" HorizontalOptions="Center"
                                                          VerticalOptions="Center"/-->
                                                         </Grid>
@@ -155,7 +155,7 @@
                                     <StackLayout>
                                         <Grid
                         x:Name="DataGrid"
-                        Background="AliceBlue"
+                        Background="LightGreen"
                         ColumnSpacing="0"
                         RowSpacing="2"
                         Grid.Row="2">
@@ -255,15 +255,15 @@
 
             <Button
         Grid.Row="0"
-        Margin="274,134,0,0"
-        BackgroundColor="SeaGreen"
-        BorderRadius="30"
-        BorderWidth="1"
+        Margin="283,159,0,0"
+        BackgroundColor="white"
+        BorderRadius="20"
+        BorderWidth="0.5"
         FontAttributes="Bold"
-        HeightRequest="50"
+        HeightRequest="40"
         HorizontalOptions="Center"
         Text="Add Recipe"
-        TextColor="White"
+        TextColor="#b3cc0d"
         VerticalOptions="End"
         WidthRequest="110" />
 
